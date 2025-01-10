@@ -38,6 +38,11 @@
 
 }
 
-.card:hover{
+.reveal-card{
     transform: rotateY(180deg);
+}
+
+.disable-card{
+    filter: saturate(0);
+    opacity: 0.5;
 }
